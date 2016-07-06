@@ -1,0 +1,62 @@
+---
+
+extends:
+  - eslint:recommended
+
+parserOptions:
+  ecmaVersion: 6
+  sourceType: module
+
+env:
+  node: true
+  es6: true
+
+rules:
+
+  indent:
+    - error
+    - 2
+    - SwitchCase: 1
+
+  quotes:
+    - error
+    - single
+
+  linebreak-style:
+    - error
+    - unix
+
+  semi:
+    - error
+    - always
+
+  brace-style:
+    - error
+    - 1tbs
+    - allowSingleLine: true
+
+  space-before-function-paren:
+    - error
+    - anonymous: always
+      named: never
+
+  eol-last:
+    - error
+
+  camelcase:
+    - 2
+    - properties: never
+
+  comma-style:
+    - 2
+    - last
+
+  comma-spacing:
+    - 2
+    - before: false
+      after: true
+
+  key-spacing:
+    - 2
+    - beforeColon: false
+      afterColon: true
