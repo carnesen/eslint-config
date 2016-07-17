@@ -10,6 +10,8 @@ parserOptions:
 env:
   node: true
   es6: true
+  mocha: true
+  browser: true
 
 rules:
 
@@ -60,3 +62,16 @@ rules:
     - 2
     - beforeColon: false
       afterColon: true
+
+  object-curly-spacing:
+    - 2
+    - always
+
+  keyword-spacing:
+    - 2
+    - before: true
+      after: true
+      overrides:
+        return: { after: true }
+        throw: { after: true }
+        case: { after: true }
