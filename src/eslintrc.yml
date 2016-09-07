@@ -75,3 +75,34 @@ rules:
         return: { after: true }
         throw: { after: true }
         case: { after: true }
+
+  prefer-template:
+    - 2
+
+  no-useless-concat:
+    - 2
+
+  no-unused-vars:
+    - 2
+
+  template-curly-spacing:
+    - 2
+    - always
+
+  no-trailing-spaces:
+    - 2
+
+  arrow-parens:
+    - 2
+    - as-needed
+
+  arrow-spacing:
+    - 2
+
+  arrow-body-style:
+    - 2
+    - as-needed
+
+  no-constant-condition:
+    - 2
+    - checkLoops: false
