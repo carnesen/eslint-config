@@ -2,11 +2,26 @@
   "name": "eslint-config-carnesen",
   "version": "1.0.3",
   "description": "An eslint configuration module",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "lint": "eslint --config src/index.js src",
+    "lint": "eslint index.js",
     "lint:fix": "npm run lint -- --fix",
-    "test": "ava && npm run lint"
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags && npm publish",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "eslint-config-standard": "6.2.0",
+    "eslint-config-standard-react": "4.2.0",
+    "eslint-plugin-promise": "2.0.1",
+    "eslint-plugin-react": "6.3.0",
+    "eslint-plugin-standard": "2.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "3.x"
+  },
+  "devDependencies": {
+    "eslint": "3.7.0"
   },
   "repository": {
     "type": "git",
@@ -17,12 +32,5 @@
   "bugs": {
     "url": "https://github.com/carnesen/eslint-config-carnesen/issues"
   },
-  "homepage": "https://github.com/carnesen/eslint-config-carnesen#readme",
-  "devDependencies": {
-    "ava": "0.15.2",
-    "eslint": "3.0.1"
-  },
-  "dependencies": {
-    "js-yaml": "3.6.1"
-  }
+  "homepage": "https://github.com/carnesen/eslint-config-carnesen#readme"
 }
