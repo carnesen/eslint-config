@@ -13,6 +13,8 @@
       "imports": "always-multiline",
       "exports": "always-multiline",
       "functions": "ignore"
-    }]
+    }],
+    "object-curly-spacing": ["error", "never"],
+    "array-bracket-spacing": ["error", "never"]
   }
 }
