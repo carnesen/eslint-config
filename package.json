@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-carnesen",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "An eslint configuration module",
   "main": "index.js",
   "scripts": {
