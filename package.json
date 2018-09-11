@@ -7,17 +7,15 @@
     "eslint": "eslint index.js",
     "eslint:fix": "npm run eslint -- --fix",
     "preversion": "npm test",
-    "postversion": "git push && git push --tags && npm publish",
+    "postversion": "npm publish",
     "test": "npm run eslint"
   },
   "dependencies": {
-    "eslint-config-airbnb": "17.1.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-config-prettier": "3.0.1",
     "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-node": "7.0.1",
     "eslint-plugin-prettier": "2.6.2",
-    "eslint-plugin-react": "7.11.1",
     "prettier": "1.14.2"
   },
   "peerDependencies": {
