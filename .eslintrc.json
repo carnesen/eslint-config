@@ -1,20 +1,15 @@
 {
-  "extends": ["standard", "standard-react"],
-  "env": {
-    "mocha": true
-  },
-  "globals": {
-    "should": true
-  },
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
   "rules": {
-    "comma-dangle": ["error", {
-      "arrays": "always-multiline",
-      "objects": "always-multiline",
-      "imports": "always-multiline",
-      "exports": "always-multiline",
-      "functions": "ignore"
-    }],
-    "object-curly-spacing": ["error", "never"],
-    "array-bracket-spacing": ["error", "never"]
+    "prettier/prettier": "error"
+  },
+  "env": {
+    "jest": true
   }
 }
