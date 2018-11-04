@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "../.eslintrc.json",
+    "plugin:node/recommended"
+  ],
+  "rules": {
+    "no-await-in-loop": "off",
+    "no-restricted-syntax": "off"
+  }
+}

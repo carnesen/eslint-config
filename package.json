@@ -2,27 +2,24 @@
   "name": "eslint-config-carnesen",
   "version": "1.1.1",
   "description": "An eslint sharable config module",
-  "main": "index.js",
+  "main": ".eslintrc.json",
   "scripts": {
-    "eslint": "eslint index.js",
-    "eslint:fix": "npm run eslint -- --fix",
+    "check": "eslint src/",
+    "fix": "npm run check -- --fix",
+    "test": "npm run fix",
     "preversion": "npm test",
-    "postversion": "npm publish",
-    "test": "npm run eslint"
+    "postversion": "npm publish"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "13.1.0",
-    "eslint-config-prettier": "3.0.1",
+    "eslint-config-prettier": "3.1.0",
     "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-node": "7.0.1",
-    "eslint-plugin-prettier": "2.6.2",
-    "prettier": "1.14.2"
-  },
-  "peerDependencies": {
-    "eslint": ">=5"
+    "eslint-plugin-node": "8.0.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "prettier": "1.14.3"
   },
   "devDependencies": {
-    "eslint": "5.5.0"
+    "eslint": "5.8.0"
   },
   "repository": {
     "type": "git",

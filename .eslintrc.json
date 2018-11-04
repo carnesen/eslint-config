@@ -1,7 +1,6 @@
 {
   "extends": [
     "airbnb-base",
-    "plugin:node/recommended",
     "prettier"
   ],
   "plugins": [
@@ -16,9 +15,7 @@
         "bracketSpacing": true,
         "printWidth": 90
       }
-    ],
-    "no-await-in-loop": "off",
-    "no-restricted-syntax": "off"
+    ]
   },
   "env": {
     "jest": true
