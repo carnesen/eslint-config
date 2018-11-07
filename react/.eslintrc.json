@@ -1,5 +1,7 @@
 {
+  "parser": "babel-eslint",
   "extends": [
+    "eslint-config-airbnb",
     "../.eslintrc.json"
   ]
 }
