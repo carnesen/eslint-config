@@ -2,11 +2,11 @@
   "name": "eslint-config-carnesen",
   "version": "1.1.2-0",
   "description": "An eslint sharable config module",
-  "main": ".eslintrc.json",
+  "main": "base/.eslintrc.json",
   "scripts": {
     "check": "eslint src/",
     "fix": "npm run check -- --fix",
-    "test": "npm run fix",
+    "test": "./test.sh",
     "preversion": "npm test",
     "postversion": "npm publish"
   },
@@ -23,7 +23,8 @@
     "prettier": "1.14.3"
   },
   "devDependencies": {
-    "eslint": "5.8.0"
+    "eslint": "5.8.0",
+    "react": "16.6.1"
   },
   "repository": {
     "type": "git",

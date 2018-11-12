@@ -1,6 +1,6 @@
 {
   "extends": [
-    "../.eslintrc.json",
+    "../base/.eslintrc.json",
     "plugin:node/recommended"
   ],
   "rules": {

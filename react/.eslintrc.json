@@ -1,7 +1,17 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "eslint-config-airbnb",
-    "../.eslintrc.json"
-  ]
+    "../base/.eslintrc.json",
+    "eslint-config-airbnb"
+  ],
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }
+    ]
+  }
 }
