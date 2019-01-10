@@ -7,4 +7,6 @@ const renderSomething = () => (
   </>
 );
 
+window.document.write('foo');
+
 export default renderSomething;

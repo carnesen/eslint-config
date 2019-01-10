@@ -4,6 +4,9 @@
     "../base/.eslintrc.json",
     "eslint-config-airbnb"
   ],
+  "env": {
+    "browser": true
+  },
   "rules": {
     "import/no-extraneous-dependencies": [
       "error",
