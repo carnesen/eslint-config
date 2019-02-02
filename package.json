@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-carnesen",
   "version": "1.3.0",
-  "description": "An eslint sharable config module",
+  "description": "ESLint configurations for @carnesen projects",
   "main": "base/.eslintrc.json",
   "scripts": {
     "check": "eslint src/",
@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carnesen/eslint-config-carnesen.git"
+    "url": "git+https://github.com/carnesen/eslint-config.git"
   },
   "author": "Chris Arnesen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/carnesen/eslint-config-carnesen/issues"
+    "url": "https://github.com/carnesen/eslint-config/issues"
   },
-  "homepage": "https://github.com/carnesen/eslint-config-carnesen#readme"
+  "homepage": "https://github.com/carnesen/eslint-config#readme"
 }
