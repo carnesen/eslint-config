@@ -39,3 +39,7 @@ If you encounter any bugs or have any questions or feature requests, please don'
 ## Related
 - [@carnesen/tslint-config](https://github.com/carnesen/tslint-config): TSLint configurations for `@carnesen` projects
 - [@carnesen/tsconfig](https://github.com/carnesen/tsconfig): TypeScript configurations for `@carnesen` projects
+
+## license
+
+MIT © [Chris Arnesen](https://www.carnesen.com)
