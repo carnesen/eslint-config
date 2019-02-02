@@ -1,8 +1,8 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "../base/.eslintrc.json",
-    "eslint-config-airbnb"
+    "eslint-config-airbnb",
+    "../base/.eslintrc.json"
   ],
   "env": {
     "browser": true
