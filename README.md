@@ -1,4 +1,4 @@
-# eslint-config-carnesen [![Build Status](https://travis-ci.org/carnesen/eslint-config-carnesen.svg?branch=master)](https://travis-ci.org/carnesen/eslint-config-carnesen)
+# eslint-config-carnesen [![Build Status](https://travis-ci.com/carnesen/eslint-config.svg?branch=master)](https://travis-ci.com/carnesen/eslint-config)
 
 ESLint configurations for `@carnesen` projects
 
