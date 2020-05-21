@@ -1,6 +1,6 @@
 ### Node ###
 
-# TODO: Remove this when dependencies have stabilized
+# This project does not use package-lock.json
 package-lock.json*
 
 # Logs

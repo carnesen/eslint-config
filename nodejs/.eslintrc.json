@@ -1,7 +1,6 @@
 {
   "extends": [
-    "../base/.eslintrc.json",
-    "plugin:node/recommended"
+    "../base/.eslintrc.json"
   ],
   "rules": {
     "no-await-in-loop": "off",

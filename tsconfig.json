@@ -1,0 +1,15 @@
+{
+  "include": [
+    "base",
+    "nodejs",
+    "react"
+  ],
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./lib",
+    "lib": [
+      "esnext"
+    ],
+    "target": "esnext"
+  }
+}
