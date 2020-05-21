@@ -25,8 +25,8 @@ or for Node.js JavaScript code:
 ```
 Add these lines to your `package.json`'s "scripts" field:
 ```
-    "lint": "eslint <directory>",
-    "lint:fix": "npm run lint -- --fix",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx <directory>",
+    "fix": "npm run lint -- --fix",
 ```
 where `<directory>` is the subdirectory of your project containing the source code that you want to lint. Finally add `&& npm run lint` to your package's "test" script to make sure you don't forget to lint! I strongly recommend setting up your editor to automatically fix lint errors on save. That way the linter mostly stays out of your way and just does the right thing. In Visual Studio Code, [this plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) works great.
 
@@ -40,6 +40,6 @@ If you encounter any bugs or have any questions or feature requests, please don'
 - [@carnesen/eslint-config](https://github.com/carnesen/eslint-config): TSLint configurations for `@carnesen` projects
 - [@carnesen/tsconfig](https://github.com/carnesen/tsconfig): TypeScript configurations for `@carnesen` projects
 
-## license
+## License
 
 MIT © [Chris Arnesen](https://www.carnesen.com)
