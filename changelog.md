@@ -3,12 +3,14 @@
 ## [Unreleased]
 ## [2.0.0-2]
 ### Breaking
-- TypeScript is now required as a dependency. This project continues to work for .js files, but its main focus is TypeScript.
+- TypeScript >=3.8 is a required peer dependency
 - Move base/.eslintrc.json to repository root
-- Drop support for Node.js 8.
+- Drop support for nodejs and react entrypoints
+- Drop support for Node.js 8
+
 ### Added
-- Support .ts and .tsx linting via [@typescript-eslint](https://github.com/typescript-eslint/typescript-eslint).
-- Test Node.js versions 10, 12, and 14.
+- Support .ts linting via [@typescript-eslint](https://github.com/typescript-eslint/typescript-eslint).
+- Official support for Node.js versions 10, 12, and 14.
 
 ## 1.0
 `.js` and `.jsx` linting with Prettier and AirBnB ESLint rules.
