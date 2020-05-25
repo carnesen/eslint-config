@@ -1,6 +1,8 @@
 # `eslint-config-carnesen` change log
 
 ## [Unreleased]
+### Minor
+Only include .eslintrc.json in npm package.
 ## 2.0.0
 ### Breaking
 - TypeScript >=3.8 is a required peer dependency

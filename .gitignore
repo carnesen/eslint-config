@@ -35,6 +35,8 @@ built/
 dist/
 lib/
 out/
+package/
+*.tgz
 
 ### NextJS
 /.next
