@@ -1,4 +1,4 @@
-# eslint-config-carnesen [![build status badge](https://github.com/carnesen/eslint-config/workflows/test/badge.svg)](https://github.com/carnesen/eslint-config/actions?query=workflow%3Atest+branch%3Amaster)
+# eslint-config-carnesen [![npm version badge](https://badge.fury.io/js/eslint-config-carnesen.svg)](https://badge.fury.io/js/eslint-config-carnesen) [![build status badge](https://github.com/carnesen/eslint-config/workflows/test/badge.svg)](https://github.com/carnesen/eslint-config/actions?query=workflow%3Atest+branch%3Amaster)
 
 ESLint configurations for `@carnesen` projects
 
@@ -37,9 +37,7 @@ This package's rules extends those espoused by [by AirBnB](https://github.com/ai
 If you encounter any bugs or have any questions or feature requests, please don't hesitate to file an issue or submit a pull request on this project's repository on GitHub.
 
 ## Related
-- [@carnesen/eslint-config](https://github.com/carnesen/eslint-config): TSLint configurations for `@carnesen` projects
 - [@carnesen/tsconfig](https://github.com/carnesen/tsconfig): TypeScript configurations for `@carnesen` projects
 
 ## License
-
 MIT © [Chris Arnesen](https://www.carnesen.com)

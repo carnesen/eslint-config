@@ -1,7 +1,7 @@
 {
   "extends": [
     "eslint-config-airbnb",
-    "../base/.eslintrc.json"
+    "../.eslintrc.json"
   ],
   "env": {
     "browser": true
