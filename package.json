@@ -24,6 +24,9 @@
     "react": "16.13.1",
     "typescript": "3.9.3"
   },
+  "files": [
+    ".eslintrc.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/carnesen/eslint-config.git"

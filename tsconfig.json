@@ -1,7 +1,6 @@
 {
   "include": [
-    "nodejs",
-    "react"
+    "examples"
   ],
   "compilerOptions": {
     "rootDir": ".",
