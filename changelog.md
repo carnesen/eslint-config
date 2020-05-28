@@ -1,8 +1,10 @@
 # `eslint-config-carnesen` change log
 
-## [Unreleased]
-### Minor
-Only include .eslintrc.json in npm package.
+## 3.0.0 [Unreleased]
+### Breaking
+- Drop nodejs/.eslintrc.json entrypoint
+- Include support for React in main entrypoint
+
 ## 2.0.0
 ### Breaking
 - TypeScript >=3.8 is a required peer dependency
