@@ -8,6 +8,7 @@
     "lib": [
       "esnext"
     ],
-    "target": "esnext"
+    "target": "es5",
+    "jsx": "react"
   }
 }
