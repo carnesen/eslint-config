@@ -1,6 +1,6 @@
 # `eslint-config-carnesen` change log
 
-## 3.0.0 [Unreleased]
+## 3.0.0
 ### Breaking
 - Drop nodejs/.eslintrc.json entrypoint
 - Include support for React in main entrypoint
