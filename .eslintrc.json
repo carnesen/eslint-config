@@ -20,6 +20,8 @@
     }
   },
   "rules": {
+    "global-require": "off",
+    "import/export": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -31,22 +33,21 @@
       }
     ],
     "import/first": "off",
-    "import/export": "off",
-    "no-use-before-define": "off",
     "import/no-extraneous-dependencies": "off",
     "import/prefer-default-export": "off",
-    "global-require": "off",
     "no-await-in-loop": "off",
     "no-constant-condition": "off",
     "no-continue": "off",
     "no-restricted-syntax": "off",
+    "no-use-before-define": "off",
     "prettier/prettier": [
       "error",
       {
         "singleQuote": true,
         "trailingComma": "all",
         "bracketSpacing": true,
-        "printWidth": 90
+        "printWidth": 80,
+        "useTabs": true
       }
     ],
     "react/jsx-filename-extension": [

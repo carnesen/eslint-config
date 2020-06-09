@@ -1,4 +1,4 @@
-# eslint-config-carnesen [![npm version badge](https://badge.fury.io/js/eslint-config-carnesen.svg)](https://badge.fury.io/js/eslint-config-carnesen) [![build status badge](https://github.com/carnesen/eslint-config/workflows/test/badge.svg)](https://github.com/carnesen/eslint-config/actions?query=workflow%3Atest+branch%3Amaster)
+# eslint-config-carnesen [![npm version badge](https://badge.fury.io/js/eslint-config-carnesen.svg)](https://www.npmjs.com/package/eslint-config-carnesen) [![build status badge](https://github.com/carnesen/eslint-config/workflows/test/badge.svg)](https://github.com/carnesen/eslint-config/actions?query=workflow%3Atest+branch%3Amaster)
 
 ESLint configurations for `@carnesen` projects
 
@@ -11,7 +11,7 @@ Create a file `.eslintrc.json` at the root of your project with contents:
 ```json
 {
   "extends": [
-    "eslint-config-carnesen/.eslintrc.json"
+    "eslint-config-carnesen"
   ]
 }
 ```

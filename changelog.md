@@ -1,5 +1,9 @@
 # `eslint-config-carnesen` change log
 
+## 4.0.0
+### Breaking
+- Use tabs instead of spaces for the reasons enumerated in this thread https://github.com/romejs/rome/issues/425
+
 ## 3.0.0
 ### Breaking
 - Drop nodejs/.eslintrc.json entrypoint
