@@ -38,7 +38,8 @@
     "no-await-in-loop": "off",
     "no-constant-condition": "off",
     "no-continue": "off",
-    "no-restricted-syntax": "off",
+		"no-restricted-syntax": "off",
+		"no-return-await": "off",
     "no-use-before-define": "off",
     "prettier/prettier": [
       "error",
