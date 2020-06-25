@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-carnesen",
-	"version": "4.0.1",
+	"version": "4.1.0",
 	"description": "ESLint configurations for @carnesen projects",
 	"main": ".eslintrc.json",
 	"scripts": {
