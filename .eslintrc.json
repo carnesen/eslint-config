@@ -40,6 +40,7 @@
     "no-continue": "off",
 		"no-restricted-syntax": "off",
 		"no-return-await": "off",
+		"no-underscore-dangle": "off",
     "no-use-before-define": "off",
     "prettier/prettier": [
       "error",
