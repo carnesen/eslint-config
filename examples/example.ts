@@ -13,3 +13,7 @@ export const foo = {
 		return 'baz';
 	},
 };
+
+export class Foo {}
+
+export class Bar {}
