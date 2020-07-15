@@ -1,5 +1,21 @@
 # `eslint-config-carnesen` change log
 
+## [Unreleased]
+Update dependencies
+
+## 4.4.0
+- Reinstate "typescript-eslint/explicit-module-boundary-types" with allowArgumentsExplicitlyTypedAsAny=true
+
+## 4.3.0
+- "@typescript-eslint/explicit-module-boundary-types": off"
+
+## 4.2.0
+- "max-classes-per-file": "off"
+
+## 4.1.0
+- "no-return-await": "off"
+- "no-underscore-dangle": "off"
+
 ## 4.0.0
 ### Breaking
 - Use tabs instead of spaces for the reasons enumerated in this thread https://github.com/romejs/rome/issues/425
