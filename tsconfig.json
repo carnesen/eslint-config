@@ -1,14 +1,14 @@
 {
-  "include": [
-    "examples"
-  ],
-  "compilerOptions": {
-    "rootDir": ".",
-    "outDir": "./lib",
-    "lib": [
-      "esnext"
-    ],
-    "target": "es5",
-    "jsx": "react"
-  }
+	"include": [
+		"examples"
+	],
+	"compilerOptions": {
+		"rootDir": ".",
+		"outDir": "./lib",
+		"lib": [
+			"esnext"
+		],
+		"target": "es5",
+		"jsx": "react"
+	}
 }
