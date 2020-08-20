@@ -1,7 +1,8 @@
-# `eslint-config-carnesen` change log
+# **eslint-config-carnesen** changelog
 
-## [Unreleased]
-Update dependencies
+## 4.5.0 - August 19, 2020
+- Disable react rules relates to whitespace because Prettier controls that
+- Update dependencies
 
 ## 4.4.0
 - Reinstate "typescript-eslint/explicit-module-boundary-types" with allowArgumentsExplicitlyTypedAsAny=true
