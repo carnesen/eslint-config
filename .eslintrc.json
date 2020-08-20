@@ -53,6 +53,8 @@
 				"useTabs": true
 			}
 		],
+		"react/jsx-indent": "off", // conflicts with prettier
+		"react/jsx-indent-props": "off", // conflicts with prettier
 		"react/jsx-filename-extension": [
 			"error",
 			{
