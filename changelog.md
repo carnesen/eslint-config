@@ -1,5 +1,8 @@
 # **eslint-config-carnesen** changelog
 
+## 4.6.0 - August 22, 2020
+- Disable react/static-property-placement because it caused problems in @carnesen/google-cloud
+
 ## 4.5.0 - August 19, 2020
 - Disable react rules relates to whitespace because Prettier controls that
 - Update dependencies

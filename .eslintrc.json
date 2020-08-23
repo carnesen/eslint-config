@@ -63,7 +63,8 @@
 					".tsx"
 				]
 			}
-		]
+		],
+		"react/static-property-placement": "off" // overly broad
 	},
 	"env": {
 		"jest": true,
