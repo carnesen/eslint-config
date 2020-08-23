@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-carnesen",
-	"version": "4.5.0",
+	"version": "4.6.0",
 	"description": "ESLint configurations for @carnesen projects",
 	"main": ".eslintrc.json",
 	"scripts": {
@@ -29,7 +29,7 @@
 		"@types/react": "16.9.46",
 		"eslint": "7.7.0",
 		"react": "16.13.1",
-		"typescript": "3.9.7"
+		"typescript": "4.0.2"
 	},
 	"files": [
 		".eslintrc.json"

@@ -1,6 +1,6 @@
-# eslint-config-carnesen [![npm version badge](https://badge.fury.io/js/eslint-config-carnesen.svg)](https://www.npmjs.com/package/eslint-config-carnesen) [![build status badge](https://github.com/carnesen/eslint-config/workflows/test/badge.svg)](https://github.com/carnesen/eslint-config/actions?query=workflow%3Atest+branch%3Amaster)
-
 ESLint configurations for `@carnesen` projects
+
+[![build status badge](https://github.com/carnesen/eslint-config/workflows/test/badge.svg)](https://github.com/carnesen/eslint-config/actions?query=workflow%3Atest+branch%3Amaster) [![npm version badge](https://badge.fury.io/js/eslint-config-carnesen.svg)](https://www.npmjs.com/package/eslint-config-carnesen) [![github stars badge](https://img.shields.io/github/stars/carnesen/eslint-config)](https://github.com/carnesen/eslint-config)
 
 ## Install
 ```
