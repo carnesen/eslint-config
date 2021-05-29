@@ -1,5 +1,9 @@
 # **eslint-config-carnesen** changelog
 
+## 5.0.0 - 2021-05-29
+
+- Breaking: Upgrade all dependencies and make console.log an error
+
 ## 4.6.0 - August 22, 2020
 - Disable react/static-property-placement because it caused problems in @carnesen/google-cloud
 
