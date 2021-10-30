@@ -2,6 +2,8 @@
 
 ## Upcoming
 
+## v6.0.0 (2021-10-30)
+
 - Breaking: Upgrade all dependencies, make them "^" dependencies to allow this package's users update the dependencies transitively without upgrading this package.
 
 - Breaking: Drop official support for Node.js v10
