@@ -2,7 +2,7 @@
 
 ## Upcoming
 
-## v6.0.0 (2021-10-30)
+## v6.0.1 (2021-10-30)
 
 - Breaking: Upgrade all dependencies, make them "^" dependencies to allow this package's users update the dependencies transitively without upgrading this package.
 
