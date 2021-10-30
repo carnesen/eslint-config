@@ -4,6 +4,10 @@
 
 - Breaking: Upgrade all dependencies, make them "^" dependencies to allow this package's users update the dependencies transitively without upgrading this package.
 
+- Breaking: Drop official support for Node.js v10
+
+- Added: Official support for Node.js v16
+
 ## 5.0.0 - 2021-05-29
 
 - Breaking: Upgrade all dependencies and make console.log an error
