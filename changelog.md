@@ -1,5 +1,9 @@
 # **eslint-config-carnesen** changelog
 
+## Upcoming
+
+- Breaking: Upgrade all dependencies, make them "^" dependencies to allow this package's users update the dependencies transitively without upgrading this package.
+
 ## 5.0.0 - 2021-05-29
 
 - Breaking: Upgrade all dependencies and make console.log an error
