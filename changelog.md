@@ -2,6 +2,8 @@
 
 ## Upcoming
 
+## eslint-config-carnesen-7.0.0 (2022-02-25)
+
 - Feature: Disable no-useless-constructor which incorrectly identifies things like:
 
 ```
