@@ -24,3 +24,7 @@ export class Bar {}
 export function serialize(object: any): string {
 	return JSON.stringify(object);
 }
+
+export class Carl {
+	constructor(public readonly dir: string) {}
+}
