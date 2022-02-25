@@ -2,6 +2,16 @@
 
 ## Upcoming
 
+- Feature: Disable no-useless-constructor which incorrectly identifies things like:
+
+```
+class Foo {
+   constructor(public readonly bar: string) {}
+}
+```
+
+- Breaking: Enable explicit-module-boundary-types https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/explicit-module-boundary-types.md . Previously this was a warning. Now it's an error.
+
 ## v6.0.1 (2021-10-30)
 
 - Breaking: Upgrade all dependencies, make them "^" dependencies to allow this package's users update the dependencies transitively without upgrading this package.
