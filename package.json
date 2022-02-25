@@ -6,8 +6,7 @@
 	"scripts": {
 		"lint": "eslint --ext .js,.jsx,.ts,.tsx examples",
 		"fix": "npm run lint -- --fix",
-		"test": "npm run lint",
-		"prepublishOnly": "npm run test"
+		"test": "npm run lint"
 	},
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.2.0",
