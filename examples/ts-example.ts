@@ -18,12 +18,16 @@ export const foo = {
 export class Foo {}
 export class Bar {}
 
-// Should be allowed to export a function with argument type any if it makes
-// sense for the situation at hand. See
-// @typescript-eslint/explicit-module-boundary-types
-export function serialize(object: any): string {
+// Should use unknown instead of any
+export function serialize(object: unknown): string {
 	return JSON.stringify(object);
 }
+
+// Types aren't required if it's not exported
+function wave(input) {
+	return input;
+}
+wave('hello');
 
 export class Carl {
 	constructor(public readonly dir: string) {}
