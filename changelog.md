@@ -2,6 +2,8 @@
 
 ## Upcoming
 
+## eslint-config-carnesen-8.0.0 (2022-03-11)
+
 - Breaking: Enable rule @typescript-eslint/no-explicit-any. Use `unknown` instead.
 
 ## eslint-config-carnesen-7.0.0 (2022-02-25)
