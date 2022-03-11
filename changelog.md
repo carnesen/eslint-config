@@ -2,6 +2,8 @@
 
 ## Upcoming
 
+- Breaking: Enable rule @typescript-eslint/no-explicit-any. Use `unknown` instead.
+
 ## eslint-config-carnesen-7.0.0 (2022-02-25)
 
 - Feature: Disable no-useless-constructor which incorrectly identifies things like:
