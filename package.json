@@ -4,33 +4,34 @@
 	"description": "ESLint configurations for @carnesen projects",
 	"main": ".eslintrc.json",
 	"scripts": {
+		"build": "rm -f eslint-config-carnesen-*.tgz && npm pack",
 		"lint": "eslint --ext .js,.jsx,.ts,.tsx examples",
 		"fix": "npm run lint -- --fix",
 		"test": "npm run lint"
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.2.0",
-		"@typescript-eslint/parser": "^5.2.0",
-		"eslint-config-airbnb": "^18.2.1",
-		"eslint-config-prettier": "^8.3.0",
-		"eslint-plugin-import": "^2.25.2",
-		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"@typescript-eslint/eslint-plugin": "^5.17.0",
+		"@typescript-eslint/parser": "^5.17.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-import": "^2.25.4",
+		"eslint-plugin-jsx-a11y": "^6.5.1",
 		"eslint-plugin-prettier": "^4.0.0",
-		"eslint-plugin-react": "^7.26.1",
-		"eslint-plugin-react-hooks": "^4.2.0",
-		"prettier": "^2.4.1"
+		"eslint-plugin-react": "^7.29.4",
+		"eslint-plugin-react-hooks": "^4.3.0",
+		"prettier": "^2.6.1"
 	},
 	"peerDependencies": {
 		"eslint": "^7.32.0",
-		"typescript": ">=3.8.0"
+		"typescript": ">=4.0.0"
 	},
 	"devDependencies": {
 		"@carnesen/dev": "^0.2.1",
-		"@types/node": "16.11.6",
-		"@types/react": "17.0.33",
-		"eslint": "7.32.0",
+		"@types/node": "^16.11.26",
+		"@types/react": "17.0.43",
+		"eslint": "^7.32.0",
 		"react": "17.0.2",
-		"typescript": "4.4.4"
+		"typescript": "4.6.3"
 	},
 	"files": [
 		".eslintrc.json"
