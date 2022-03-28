@@ -2,6 +2,8 @@
 
 ## Upcoming
 
+- Potentially breaking: Upgrade dependencies. Require TypeScript >=4.0.
+
 ## eslint-config-carnesen-8.0.0 (2022-03-11)
 
 - Breaking: Enable rule @typescript-eslint/no-explicit-any. Use `unknown` instead.
