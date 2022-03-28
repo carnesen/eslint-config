@@ -2,6 +2,8 @@
 
 ## Upcoming
 
+## eslint-config-carnesen-9.0.0 (2022-03-28)
+
 - Potentially breaking: Upgrade dependencies. Require TypeScript >=4.0.
 
 ## eslint-config-carnesen-8.0.0 (2022-03-11)
