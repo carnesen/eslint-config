@@ -2,6 +2,8 @@
 
 ## Upcoming
 
+## eslint-config-carnesen-9.1.0 (2022-04-11)
+
 Split out separate node.eslintrc.json and react.eslintrc.json configurations to avoid spurious errors when using with Node.js. Keep the main .eslintrc.json as a combination of the two.
 
 ## eslint-config-carnesen-9.0.0 (2022-03-28)
