@@ -23,6 +23,10 @@ export function serialize(object: unknown): string {
 	return JSON.stringify(object);
 }
 
+export enum FooBarBaz {
+	Foo1 = 'BAR',
+}
+
 // Types aren't required if it's not exported
 function wave(input) {
 	return input;
