@@ -2,6 +2,8 @@
 
 ## Upcoming
 
+Breaking: Enable @typescript-eslint/no-shadow and disable the associated base rule to work around a bug where all enums are reported as shadowing https://stackoverflow.com/a/63961972/2793540.
+
 ## eslint-config-carnesen-9.1.0 (2022-04-11)
 
 Split out separate node.eslintrc.json and react.eslintrc.json configurations to avoid spurious errors when using with Node.js. Keep the main .eslintrc.json as a combination of the two.
