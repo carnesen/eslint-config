@@ -2,6 +2,8 @@
 
 ## Upcoming
 
+## eslint-config-carnesen-10.0.0 (2022-04-18)
+
 Breaking: Enable @typescript-eslint/no-shadow and disable the associated base rule to work around a bug where all enums are reported as shadowing https://stackoverflow.com/a/63961972/2793540.
 
 ## eslint-config-carnesen-9.1.0 (2022-04-11)
