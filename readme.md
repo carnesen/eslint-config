@@ -7,7 +7,7 @@ ESLint configurations for `@carnesen` projects. This package is thoroughly docum
 To install this package as a dependency in your project, do:
 
 ```
-npm install eslint-config-carnesen eslint>=8.13
+npm install eslint-config-carnesen eslint
 ```
 
 Now create a file `.eslintrc.json` at the root of your project with contents:
@@ -55,7 +55,7 @@ This package's rules extends those espoused by [by AirBnB](https://github.com/ai
 
 ## More information
 
-If you encounter any bugs or have any questions or feature requests, please don't hesitate to file an issue or submit a pull request on this project's repository on GitHub.
+If you encounter any bugs or have any questions or feature requests, please don't hesitate to file an issue or submit a pull request on [this project's repository on GitHub](https://github.com/carnesen/eslint-config).
 
 ## Related
 
