@@ -4,7 +4,7 @@
 	"description": "ESLint configurations for @carnesen projects",
 	"main": ".eslintrc.json",
 	"scripts": {
-		"build": "rm -f eslint-config-carnesen-*.tgz && npm pack",
+		"build": "./scripts/build.sh",
 		"lint": "eslint --ext .js,.jsx,.ts,.tsx examples",
 		"fix": "npm run lint -- --fix",
 		"test": "npm run lint"
