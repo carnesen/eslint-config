@@ -2,6 +2,8 @@
 
 ## Upcoming
 
+Breaking: Drop official support for Node.js version 12
+
 Breaking: Enable rule [@typescript-eslint/explicit-member-accessibility](https://typescript-eslint.io/rules/explicit-member-accessibility/).
 
 Breaking: Enable rule [@typescript-eslint/no-use-before-define](https://typescript-eslint.io/rules/no-use-before-define/) for classes, variables, enums, and typedefs but not for functions which are safely hoisted and type references which are also effectively hoisted.

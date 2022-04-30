@@ -6,13 +6,13 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [ '16', '14', '12' ]
+        node-version: [ '17', '16', '14' ]
     name: Node.js ${{ matrix.node-version }}
     steps:
     - name: Checkout source
       uses: actions/checkout@master
     - name: Install Node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
