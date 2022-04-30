@@ -34,5 +34,5 @@ function wave(input) {
 wave('hello');
 
 export class Carl {
-	constructor(public readonly dir: string) {}
+	public constructor(public readonly dir: string) {}
 }

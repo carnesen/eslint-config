@@ -18,7 +18,9 @@
 			}
 		}
 	},
+	// Alphabetized by the rule name excluding "@typescript-eslint/"
 	"rules": {
+		"@typescript-eslint/explicit-member-accessibility": "off",
 		"global-require": "off",
 		"import/export": "off",
 		"import/extensions": [
@@ -90,7 +92,6 @@
 			],
 			// https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
 			"rules": {
-				// These are alphabetized by the rule name excluding "@typescript-eslint/"
 				"@typescript-eslint/array-type": [
 					"error",
 					{
@@ -98,6 +99,7 @@
 					}
 				],
 				"@typescript-eslint/explicit-function-return-type": "off",
+				"@typescript-eslint/explicit-member-accessibility": "error",
 				"@typescript-eslint/explicit-module-boundary-types": "error",
 				// import foo = require('foo') confuses this rule
 				"import/newline-after-import": "off",
