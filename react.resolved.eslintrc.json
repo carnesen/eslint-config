@@ -134,6 +134,9 @@
     "react/require-render-return": [
       2
     ],
+    "@typescript-eslint/explicit-member-accessibility": [
+      "off"
+    ],
     "global-require": [
       "off"
     ],

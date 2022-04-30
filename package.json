@@ -1,13 +1,16 @@
 {
 	"name": "eslint-config-carnesen",
-	"version": "10.0.0",
+	"version": "11.0.0",
 	"description": "ESLint configurations for @carnesen projects",
 	"main": ".eslintrc.json",
 	"scripts": {
 		"build": "./scripts/build.sh",
 		"lint": "eslint --ext .js,.jsx,.ts,.tsx examples",
 		"fix": "npm run lint -- --fix",
-		"test": "npm run lint"
+		"release": "carnesen-dev release --semverBump",
+		"release:major": "npm run release -- major",
+		"release:minor": "npm run release -- minor",
+		"test": "npm run lint && npm run build"
 	},
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.18.0",

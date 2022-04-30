@@ -2,6 +2,8 @@
 
 ## Upcoming
 
+## eslint-config-carnesen-11.0.0 (2022-04-30)
+
 Breaking: Drop official support for Node.js version 12
 
 Breaking: Enable rule [@typescript-eslint/explicit-member-accessibility](https://typescript-eslint.io/rules/explicit-member-accessibility/).
