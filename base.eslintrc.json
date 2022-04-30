@@ -42,7 +42,16 @@
 		"no-restricted-syntax": "off",
 		"no-return-await": "off",
 		"no-underscore-dangle": "off",
-		"no-use-before-define": "off",
+		// Functions are safe to use before defined because hoisting
+		"no-use-before-define": [
+			"error",
+			{
+				"classes": true,
+				"functions": false,
+				"variables": true
+			}
+		],
+		// Useless constructors are useful when using dependency injection
 		"no-useless-constructor": "off",
 		"prettier/prettier": [
 			"error",
@@ -57,7 +66,7 @@
 	},
 	"env": {
 		"jest": true,
-		"es6": true
+		"es2021": true
 	},
 	"overrides": [
 		{
@@ -67,7 +76,7 @@
 			],
 			"parser": "@typescript-eslint/parser",
 			"parserOptions": {
-				"ecmaVersion": 2020,
+				"ecmaVersion": 2021,
 				"sourceType": "module",
 				"ecmaFeatures": {
 					"modules": true
@@ -81,10 +90,18 @@
 			],
 			// https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
 			"rules": {
-				"import/newline-after-import": "off", // import foo = require('foo') confuses this rule
+				// These are alphabetized by the rule name excluding "@typescript-eslint/"
+				"@typescript-eslint/array-type": [
+					"error",
+					{
+						"default": "array"
+					}
+				],
 				"@typescript-eslint/explicit-function-return-type": "off",
 				"@typescript-eslint/explicit-module-boundary-types": "error",
-				"no-unused-vars": "off",
+				// import foo = require('foo') confuses this rule
+				"import/newline-after-import": "off",
+				"no-unused-vars": "off", // Disable base rule
 				"@typescript-eslint/no-unused-vars": [
 					"error",
 					{
@@ -92,16 +109,10 @@
 						"varsIgnorePattern": "_+|React"
 					}
 				],
-				"@typescript-eslint/array-type": [
-					"error",
-					{
-						"default": "array"
-					}
-				],
 				"@typescript-eslint/no-empty-function": "off",
 				"@typescript-eslint/no-explicit-any": "error",
 				"@typescript-eslint/no-non-null-assertion": "off",
-				"no-shadow": "off",
+				"no-shadow": "off", // Disable base rule
 				"@typescript-eslint/no-shadow": [
 					"error",
 					{
@@ -109,7 +120,20 @@
 						"hoist": "all"
 					}
 				],
-				"@typescript-eslint/no-use-before-define": "off",
+				"no-use-before-define": "off", // Disable base rule
+				"@typescript-eslint/no-use-before-define": [
+					"error",
+					{
+						"classes": true,
+						"enums": true,
+						// Functions are safe to use before defined because hoisting
+						"functions": false,
+						// Types are safe to use before defined too
+						"ignoreTypeReferences": true,
+						"typedefs": true,
+						"variables": true
+					}
+				],
 				"@typescript-eslint/no-var-requires": "off"
 			}
 		}

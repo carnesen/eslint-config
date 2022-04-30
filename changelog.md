@@ -2,6 +2,10 @@
 
 ## Upcoming
 
+Breaking: Enable rule [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define) for classes, variables, enums, and typedefs but not for functions which are safely hoisted and type references which are also effectively hoisted.
+
+Feature: Set `env.es2021` to `true` 
+
 Feature: Commit the result of `eslint --print-config` for each .eslintrc file.
 
 ## eslint-config-carnesen-10.0.0 (2022-04-18)
