@@ -2,7 +2,9 @@
 
 ## Upcoming
 
-Breaking: Enable rule [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define) for classes, variables, enums, and typedefs but not for functions which are safely hoisted and type references which are also effectively hoisted.
+Breaking: Enable rule [@typescript-eslint/explicit-member-accessibility](https://typescript-eslint.io/rules/explicit-member-accessibility/).
+
+Breaking: Enable rule [@typescript-eslint/no-use-before-define](https://typescript-eslint.io/rules/no-use-before-define/) for classes, variables, enums, and typedefs but not for functions which are safely hoisted and type references which are also effectively hoisted.
 
 Feature: Set `env.es2021` to `true` 
 
