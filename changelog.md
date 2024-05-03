@@ -2,6 +2,10 @@
 
 ## Upcoming
 
+## eslint-config-carnesen-12.0.0 (2024-05-03)
+
+
+
 ## eslint-config-carnesen-11.0.0 (2022-04-30)
 
 Breaking: Drop official support for Node.js version 12
