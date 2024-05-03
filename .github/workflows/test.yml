@@ -6,14 +6,18 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [ '22', '20' ]
-    name: Node.js ${{ matrix.node-version }}
+        node-release:
+          - description: current
+            version: 22
+          - description: active
+            version: 20
+          - description: maintenance
+            version: 20          
+    name: Node.js ${{ matrix.node-release.description }}
     steps:
-    - name: Checkout source
-      uses: actions/checkout@master
-    - name: Install Node.js
-      uses: actions/setup-node@v3
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
       with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm install
+        node-version: ${{ matrix.node-release.version }}
+    - run: npm ci
     - run: npm test
